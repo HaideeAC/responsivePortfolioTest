@@ -8,6 +8,21 @@ body {
   margin: 0px auto;
   max-width: 800px;
 }
+@media (max-width: 800px) {
+  h1 {
+    font-size: 45px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 30px 30px;
+  }
+}
 
 h1,
 h2,
@@ -19,6 +34,7 @@ h3 {
 h1 {
   font-size: 96px;
 }
+
 
 h2 {
   font-size: 48px;
